@@ -1,0 +1,125 @@
+.Header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    min-height: 50px;
+    background: transparent;
+
+    a{
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+        color: $white;
+        position: relative;
+        z-index: 1;
+    }
+
+    @keyframes aHrefWidth{
+        0%{
+            left: 50%;
+            width: 0%;
+        }
+        100%{
+            left: 0%;
+            width: 100%;
+        }
+    }
+
+    a:after{
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 0px;
+        height: 2px;
+        background-color: $white;
+        bottom: 3px;
+        left: 50%;
+        border-radius: 5px;
+    }
+
+    a:hover:after{
+        animation: aHrefWidth 200ms forwards ease-in;
+    }
+
+    a:before{
+        content: '';
+        position: absolute;
+        z-index: 3;
+        width: 0px;
+        height: 2px;
+        background-color: $dodgerblue;
+        bottom: 3px;
+        left: 50%;
+        border-radius: 5px;
+    }
+
+    a:hover:before{
+        animation: aHrefWidth 200ms 200ms forwards ease-in;
+    }
+
+    .rr-popupbox{
+        margin: 10px 20px;
+        display: inline-block;
+
+        .icon{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            background-color: transparent;
+            transition: $default_transition;
+            border-radius: 50%;
+            color: $white;
+            padding: 5px;
+            font-size: 1.1rem;
+        }
+
+        .icon:hover{
+            cursor: pointer;
+            background-color: rgba(122,122,122,.33);
+        }
+
+        .box.top-right{
+            right: 10px;
+            top: calc(100% + 10px);
+            background-color: $white;
+            min-width: 200px;
+
+            .title{
+                box-sizing: border-box;
+                padding: 5px 10px;
+                min-height: 30px;
+                line-height: 30px;
+
+                i{
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+
+            ul{
+                margin: 0;
+                padding: 0;
+
+                li{
+                    box-sizing: border-box;
+                    padding: 10px 15px;
+                    margin: 5px 0;
+                    background-color: transparent;
+                    transition: $default_transition;
+                    color: rgb(122,122,122);
+                }
+
+                li:hover{
+                    background-color: $dodgerblue;
+                    color: $white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
