@@ -6,6 +6,8 @@ const APP_DIR = path.resolve(__dirname, './website.jsx');
 
 const version = 'v1.0.0';
 
+const Dotenv = require('dotenv-webpack');
+
 module.exports = {
     devtool: false,
     resolve: {
@@ -61,5 +63,8 @@ module.exports = {
                 loader: 'url-loader?limit=10000'
             }
         ]
-    }
+    },
+    plugins: [
+        new Dotenv(),
+    ]
 };

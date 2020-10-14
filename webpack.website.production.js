@@ -8,6 +8,8 @@ const WRITE_DIR = path.resolve(__dirname, './public/');
 
 const APP_DIR = path.resolve(__dirname, './website.jsx');
 
+const Dotenv = require('dotenv-webpack');
+
 const version = 'v1.0.0';
 
 module.exports = {
@@ -76,6 +78,7 @@ module.exports = {
         'react/lib/ReactContext': true,
     },
     plugins: [
+        new Dotenv(),
         new JavaScriptObfuscator({
             rotateUnicodeArray: true
         },

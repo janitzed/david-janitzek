@@ -1,0 +1,31 @@
+.History{
+    // .SideBar.SideBar-min{
+    //     width: 100px;
+    // }
+
+    // .Content-min{
+    //     left: 100px;
+    //     width: calc(100% - 100px);
+    // }
+    min-height: 100vh;
+
+    .Content .header{
+        z-index: 5;
+    }
+}
+
+#app{
+    .History{
+        .rr-popupbox{
+            float: right;
+            margin: 0 10px;
+
+            .icon{
+                color: #72777a;
+            }
+            .icon:hover{
+                background-color: rgba(122,122,122,.13);
+            }
+        }
+    }
+}

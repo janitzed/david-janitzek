@@ -4,25 +4,13 @@ import { Link } from 'react-router-dom';
 
 import trans from '../Translations/trans';
 
-import possibleLanguagesLong from '../Functions/language/possibleLanguagesLong';
+import HeaderLanguagePopup from './HeaderLanguagePopup';
 
-import setLanguage from '../Functions/language/setLanguage';
-
-import PopupBox from 'react-revolution/public/PopupBox';
-
-class Header extends React.Component {
+class Header extends React.Component 
+{
 
   constructor(props) {
     super(props);
-
-    this.state = {
-
-    };
-  }
-
-  setLanguage(language = 'English') {
-    setLanguage(language);
-    window.location.reload();
   }
 
   render() {
@@ -31,54 +19,19 @@ class Header extends React.Component {
       <div className="Header">
         <div className="flex flex-space-between">
           <div>
-            <Link to="/">
-              {
-                trans('home')
-              }
-            </Link>
-            <Link to="/">
+            <Link to="/history">
               {
                 trans('history')
               }
             </Link>
-            <Link to="/">
+            <Link to="/projects">
               {
                 trans('projects')
               }
             </Link>
           </div>
           <div>
-            <PopupBox
-              globalStyle={true}
-              animationTime={300}
-              animation='top-right'
-              icon={
-                <i className='fas fa-globe-europe' />
-              }
-              data={
-                <span class="popup">
-                  <h1 className="ellipsis title">
-                    <i className='fas fa-globe-europe' />
-                    {
-                      trans('changeLanguageTitle')
-                    }
-                  </h1>
-                  <ul>
-                    {
-                      possibleLanguagesLong.map(language => {
-                        return (
-                          <li className="ellipsis" key={`language-${language}`} onClick={() => this.setLanguage(language)}>
-                            {
-                              language
-                            }
-                          </li>
-                        )
-                      })
-                    }
-                  </ul>
-                </span>
-              }
-            />
+            <HeaderLanguagePopup />
           </div>
         </div>
       </div>
