@@ -91,7 +91,6 @@ class Home extends React.Component {
                     }
                 </h1>
                 <ArticlesImages
-                    addClass="recent-projects"
                     animation='opacity'
                     toggleOn='text'
                     persist={true}

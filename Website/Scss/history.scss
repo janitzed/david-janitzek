@@ -12,6 +12,114 @@
     .Content .header{
         z-index: 5;
     }
+
+    .rr-timeline{
+        
+        .single-entry{
+
+            .data-holder{
+                border-color: transparent !important;
+                padding: 5px;
+            }
+
+            .title {
+                padding:0px;
+            }
+            
+            h1,
+            h2,
+            .tasks{
+                box-sizing: border-box;
+                padding: 10px;
+                border:1px solid $border-color;
+                border-radius: $border-radius;
+                margin: 10px 0;
+            }
+
+            h1, h2{
+                color: #72777a;
+                font-size: 1.1rem;
+                font-weight: 400;
+                font-family: Ubuntu, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+                letter-spacing: 0.01123rem;
+                text-align: left;
+            }
+
+            h2{
+                letter-spacing: 0.03rem;
+                color: $dodgerblue;
+            }
+
+            ul{
+                box-sizing: border-box;
+
+                li{
+                    min-height: 25px;
+                    line-height: 25px;
+
+                    .icon-right{
+                        width: 20px;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .icons{
+
+                i{
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    font-size: 1.1rem;
+                    background-color: transparent;
+                    border-radius: 50%;
+                    border:1px solid transparent;
+                    transition-duration: $default_transition;
+                    margin: 20px 10px 10px 10px;
+                    color: #72777a;
+                }
+
+                i:hover{
+                    border: 1px solid $border-color;
+                    background-color: $dodgerblue-light-xl;
+                }
+
+                .php{
+                    color: purple;
+                }
+
+                .node{
+                    color: #83CD29;
+                }
+
+                .js{
+                    color: #E9D63D;
+                }
+
+                .css{
+                    color: #254BDD;
+                }
+
+                .html{
+                    color: #DD4825;
+                }
+
+                .docker{
+                    color: #2391E6;
+                }
+
+                .react{
+                    color: #5ED3F3;
+                }
+
+                .heart{
+                    color: #FF4456;
+                }
+            }
+        }
+    }
 }
 
 #app{

@@ -5,6 +5,8 @@ import Website from '../Modules/Website';
 
 import ArticlesImages from 'react-revolution/public/ArticlesImages';
 
+import TextWriter from 'react-revolution/public/TextWriter';
+
 import trans from '../Translations/trans';
 
 import mediaBreakAt from '../Functions/mediaBreakAt';
@@ -25,14 +27,21 @@ class Projects extends React.Component
                         (
                             <div>
                                 <h1 className='h1-title'>
-                                    Projects
+                                    <TextWriter
+                                        text={trans('area_projects')}
+                                        speed={30}
+                                        pipeDisplay={true}
+                                        pipeChar={''}
+                                        pipeSite='right'
+                                        pipePersist={false}
+                                    />
                                 </h1>
                                 <ArticlesImages
                                     addClass='projects'
                                     animation='opacity'
                                     toggleOn='text'
                                     persist={true}
-                                    itemsPerLine={2}
+                                    itemsPerLine={1}
                                     mediaBreak={mediaBreakAt}
                                     data={
                                         [

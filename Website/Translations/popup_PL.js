@@ -20,6 +20,231 @@ const PL = {
     project_sourceCode: 'Projekt dodatku do Firefoksa, który daje użytkownikowi możliwość wyświetlenia kodu źródłowego strony internetowej lub jej poszczególnych elementów, a także pobranie poszczególnych elementów / fragmentów kodu.',
     project_protector: 'Projekt dodatku do Firefoksa, który daje użytkownikowi końcowemu możliwość blokowania żądań stron internetowych, adresów URL lub pojedynczych domen za pomocą różnych czarnych list. Zarządzanie różnymi listami i funkcjami odbywa się w interfejsie użytkownika.',
     open_website: 'Strona',
+    "2018_2019": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rozwój, naprawa błędów stron internetowych i mikroserwisów PHP</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rozszerzenie mikrousług Node.js i RabbitMq</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Tworzenie responsywnych stron internetowych w językach: PHP, CSS, SCSS, HTML, React, Redux, Javascript i jQuery</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rytm pracy w Scrum Framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dockeryzacja aplikacji Node.js</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dockeryzacja bazy danych PostgreSql</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Wdrożenie wewnętrznego szkolenia Docker dla programistów</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Wdrożenie wewnętrznego szkolenia Docker-compose</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Współtworzenie podstawowego obrazu Linuksa dla programistów</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Wdrażanie kodu za pomocą Bamboo</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rozwój ChatBota jako prototypu w Node.js.</div>
+            </li>
+        </ul>
+    ),
+    "2017_2018": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rozwój i rozbudowa mikroserwisów NodeJ i PHP</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rozszerzanie i tworzenie responsywnych stron internetowych w językach: ExtJs, Javascript, jQuery, Css, HTML, PHP, SQL</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Korzystanie z systemu wersjonowania: Git</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Rytm pracy w Scrum Framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dokumentacja wykonanych prac przy pomocy produktów Atlasian (Jira, Confluence)</div>
+            </li>
+        </ul>
+    ),
+    "2015_2017": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Akceptacja, analiza i usuwanie usterek w obszarze sprzętu i oprogramowania
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Dokumentacja komunikatów o błędach w systemie biletowym CISM
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Przekazywanie komunikatu o błędzie do dalszych jednostek wsparcia
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Pierwsze rozwiązanie problemów z Windows 7 i Outlookiem
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Umowa dotycząca poziomu usług 90% bezpośrednich rozwiązań
+                </div>
+            </li>
+        </ul>
+    ),
+    "2013_2014": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Obsługa drugiego poziomu w systemie Windows 7
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Pierwsze rozwiązanie problemów z Windows 7 i Lotus Notes
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Dokumentacja i przekazanie raportu o usterce do wsparcia drugiego poziomu
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Umowa dotycząca poziomu usług 80% bezpośrednich rozwiązań
+                </div>
+            </li>
+        </ul>
+    ),
+    "2007_2013": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Trening osobisty: trening siłowy i fitness
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Prowadzenie sesji fitness
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Tworzenie zindywidualizowanych planów żywieniowych i planów treningowych
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Porady dotyczące suplementacji, odżywiania i treningu
+                </div>
+            </li>
+        </ul>
+    ),
+    area_history: 'Historia',
+    area_projects: 'Projekty',
+    munich: 'Monachium',
+    kattowitz: 'Katowice',
+    tarnowitz: 'Tarnowskie Góry'
 };
 
 export default PL;

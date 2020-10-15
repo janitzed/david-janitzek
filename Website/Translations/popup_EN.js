@@ -20,6 +20,231 @@ const EN = {
     project_sourceCode: 'A Firefox add-on project to give the user the opportunity to display the source code of a website or its individual elements, as well as to download individual elements / code snippets.',
     project_protector: 'A Firefox add-on project that gives the end user the opportunity to block website requests, urls or individual domains using various blacklists. The administration of various lists and functions takes place in a user interface.',
     open_website: 'Website',
+    "2018_2019": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Development, bug fix of websites and PHP microservices</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Extension of Node.js and RabbitMq microservices</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Development of responsive websites using the languages: PHP, CSS, SCSS, HTML, React, Redux, Javascript and jQuery</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Working rhythm in the Scrum Framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dockerization of Node.js applications</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dockerization of a PostgreSql database</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Implementation of an internal Docker training course for developers</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Implementation of an internal Docker-compose training</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Co-development of a base Linux image for developers</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Code deployment using Bamboo</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Development of a ChatBot as a prototype in Node.js</div>
+            </li>
+        </ul>
+    ),
+    "2017_2018": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Development and expansion of NodeJs and PHP microservices</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Extension & creation of responsive websites using the languages: ExtJs, Javascript, jQuery, Css, HTML, PHP, SQL</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Use of the versioning system: Git</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Working rhythm in the Scrum Framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Documentation of work done, with the help of Atlasian products (Jira, Confluence)</div>
+            </li>
+        </ul>
+    ),
+    "2015_2017": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Acceptance, analysis and rectification of faults in the hardware and software area
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Documentation of the error messages in the CISM ticket system
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Forwarding of the error message to downstream support units
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    First solution of Windows 7 and Outlook problems
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Service Level Agreement 90% of the direct solutions
+                </div>
+            </li>
+        </ul>
+    ),
+    "2013_2014": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Second level support in Windows 7
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    First solution of Windows 7 and Lotus Notes problems
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Documentation and forwarding of the fault report to the 2nd level support
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Service Level Agreement 80% of the direct solutions
+                </div>
+            </li>
+        </ul>
+    ),
+    "2007_2013": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Personal training: strength training & fitness
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Conducting fitness sessions
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Creation of individualized nutrition plans and training plans
+                </div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">
+                    Advice on supplementation, nutrition and training
+                </div>
+            </li>
+        </ul>
+    ),
+    area_history: 'History',
+    area_projects: 'Projects',
+    munich: 'Munich',
+    kattowitz: 'Kattowitz',
+    tarnowitz: 'Tarnowitz'
 };
 
 export default EN;

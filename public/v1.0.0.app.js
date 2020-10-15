@@ -596,6 +596,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/react-revolution/public/TextWriter/index.js");
 /* harmony import */ var react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./Website/Functions/mediaBreakAt.js");
+/* harmony import */ var _Translations_trans__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./Website/Translations/trans.js");
 
 
 
@@ -605,6 +606,7 @@ __webpack_require__.r(__webpack_exports__);
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -631,47 +633,131 @@ var History = /*#__PURE__*/function (_React$Component) {
         location: "history",
         content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
           className: "h1-title"
-        }, "History"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_Timeline__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          text: Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('area_history'),
+          speed: 30,
+          pipeDisplay: true,
+          pipeChar: '',
+          pipeSite: "right",
+          pipePersist: false
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_Timeline__WEBPACK_IMPORTED_MODULE_7___default.a, {
           lineMiddle: true,
           lineTitle: false,
           borderStyle: "dashed",
           dashedSize: "large",
           mediaBreak: _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_9__["default"],
           data: [{
-            title: '2019',
+            title: '2018 - 2019',
             align: 'left',
-            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
-              text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-              speed: 30
-            })))
+            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "box"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "title"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null, "Fonds Finanz Maklerservice GmbH, ".concat(Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('munich'))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Full Stack Developer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "tasks"
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('2018_2019'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "icons"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-php php"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-node node"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-js-square js"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-react react"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-css3 css"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-html5 html"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-docker docker"
+            }))))
           }, {
-            title: '2019',
+            title: '2017 - 2018',
             align: 'right',
-            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
-              text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-              speed: 30
-            })))
+            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "box"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "title"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null, "Fonds Finanz Maklerservice GmbH, ".concat(Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('munich'))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Full Stack Developer - Junior")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "tasks"
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('2017_2018'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "icons"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-php php"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-node node"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-js-square js"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-react react"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-css3 css"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-html5 html"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-docker docker"
+            }))))
           }, {
-            title: '2019',
+            title: '2015 - 2017',
             align: 'left',
-            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
-              text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-              speed: 30
-            })))
+            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "box"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "title"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null, "IBM Deutschland CSS GmbH, Erfurt"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "IBM CSS Service Desk - Helpliner")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "tasks"
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('2015_2017'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "icons"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-phone"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-windows docker"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-laptop html"
+            }))))
           }, {
-            title: '2019',
+            title: '2013 - 2014',
             align: 'right',
-            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
-              text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-              speed: 30
-            })))
+            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "box"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "title"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null, "Capgemini, ".concat(Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('kattowitz'))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Assistent f\xFCr technische St\xF6rungen - IT Service Desk (Deutsche Bahn AG)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "tasks"
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('2013_2014'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "icons"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-phone"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fab fa-windows docker"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-laptop html"
+            }))))
           }, {
-            title: '2019',
+            title: '2007 - 2013',
             align: 'left',
-            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
-              text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
-              speed: 30
-            })))
+            content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "box"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "title"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", null, "Jani Fitness Fun, ".concat(Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('tarnowitz'))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", null, "Personal Trainer")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "tasks"
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_10__["default"])('2007_2013'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+              className: "icons"
+            }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-dumbbell"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-running js"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-biking js"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-heartbeat heart"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-weight node"
+            }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+              className: "fas fa-clipboard-list docker"
+            }))))
           }]
         }))
       }));
@@ -786,7 +872,6 @@ var Home = /*#__PURE__*/function (_React$Component) {
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         className: "h1-title"
       }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('recentProjects')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        addClass: "recent-projects",
         animation: "opacity",
         toggleOn: "text",
         persist: true,
@@ -832,8 +917,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Modules_Website__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("./Website/Modules/Website.jsx");
 /* harmony import */ var react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("./node_modules/react-revolution/public/ArticlesImages/index.js");
 /* harmony import */ var react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _Translations_trans__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./Website/Translations/trans.js");
-/* harmony import */ var _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./Website/Functions/mediaBreakAt.js");
+/* harmony import */ var react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("./node_modules/react-revolution/public/TextWriter/index.js");
+/* harmony import */ var react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Translations_trans__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("./Website/Translations/trans.js");
+/* harmony import */ var _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__("./Website/Functions/mediaBreakAt.js");
 
 
 
@@ -843,6 +930,7 @@ __webpack_require__.r(__webpack_exports__);
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -869,27 +957,34 @@ var Projects = /*#__PURE__*/function (_React$Component) {
         location: "projects",
         content: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
           className: "h1-title"
-        }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_TextWriter__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          text: Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('area_projects'),
+          speed: 30,
+          pipeDisplay: true,
+          pipeChar: '',
+          pipeSite: "right",
+          pipePersist: false
+        })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_revolution_public_ArticlesImages__WEBPACK_IMPORTED_MODULE_7___default.a, {
           addClass: "projects",
           animation: "opacity",
           toggleOn: "text",
           persist: true,
-          itemsPerLine: 2,
-          mediaBreak: _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_9__["default"],
+          itemsPerLine: 1,
+          mediaBreak: _Functions_mediaBreakAt__WEBPACK_IMPORTED_MODULE_10__["default"],
           data: [{
             title: 'React Revolution',
             image: "".concat("http://localhost:3000/", "public/images/react-revolution.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_reactRevolution'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_reactRevolution'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
               href: "https://react-revolution.j.pl",
               target: "_blank"
-            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('open_website'))))
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('open_website'))))
           }, {
             title: 'Tracker',
             image: "".concat("http://localhost:3000/", "public/images/tracker.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_tracker'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_tracker'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -899,11 +994,11 @@ var Projects = /*#__PURE__*/function (_React$Component) {
               className: "link-animation my-2",
               href: "https://tracker-manager.cba.pl",
               target: "_blank"
-            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('open_website'))))
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('open_website'))))
           }, {
             title: 'Chat',
             image: "".concat("http://localhost:3000/", "public/images/chat.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_chat'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_chat'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -913,11 +1008,11 @@ var Projects = /*#__PURE__*/function (_React$Component) {
               className: "link-animation my-2",
               href: "https://chat-manager.j.pl",
               target: "_blank"
-            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('open_website'))))
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('open_website'))))
           }, {
             title: 'Image Downloader',
             image: "".concat("http://localhost:3000/", "public/images/image-downloader.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_imageDownloader'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_imageDownloader'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -927,7 +1022,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           }, {
             title: 'Network Monitor',
             image: "".concat("http://localhost:3000/", "public/images/network-monitor.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_networkMonitor'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_networkMonitor'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -937,7 +1032,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           }, {
             title: 'Script Injector',
             image: "".concat("http://localhost:3000/", "public/images/script-injector.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_scriptInjector'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_scriptInjector'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -947,7 +1042,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           }, {
             title: 'Source Code',
             image: "".concat("http://localhost:3000/", "public/images/source-code.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_sourceCode'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_sourceCode'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -957,7 +1052,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           }, {
             title: 'Protector',
             image: "".concat("http://localhost:3000/", "public/images/protector.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_protector'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_protector'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
@@ -967,13 +1062,13 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           }, {
             title: 'React Divcreator',
             image: "".concat("http://localhost:3000/", "public/images/react-divcreator.png"),
-            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('project_reactDivcreator'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            text: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", null, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('project_reactDivcreator'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
               className: "link"
             }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
               className: "link-animation",
               href: "https://react-divcreator.cba.pl",
               target: "_blank"
-            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_8__["default"])('open_website'))))
+            }, Object(_Translations_trans__WEBPACK_IMPORTED_MODULE_9__["default"])('open_website'))))
           }]
         }))
       }));
@@ -1084,7 +1179,191 @@ var DE = {
   project_scriptInjector: 'Eine Firefox Addon Projekt um die Möglichkeit zu schaffen auf jeder Webseite seinen eigenen Code einzufügen. Die Injektion des eigenen Codes kann Zeitlich gesteuert werden. Für die Verwaltung gibt es auch ein Benutzer Interface.',
   project_sourceCode: 'Ein Firefox Addon Projekt um dem Benutzer eine Möglichkeit zu schaffen, den Source Code eine Webseite oder dessen einzelne Elemente anzuzeigen, wie auch einzelne Elemente/ Code Schnipsel herunter zu laden.',
   project_protector: 'Ein Firefox Addon Projekt die dem Endanwender die Möglichkeit bietet Webseite Anfragen, Url`s oder einzelne Domänen, anhand verschiedener Blacklists, zu blockieren. Die Verwaltung verschiedener Listen und Funktionene finden in einem Benutzer Interface statt.',
-  open_website: 'Webseite'
+  open_website: 'Webseite',
+  "2018_2019": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Entwicklung, Bugfix von Websiten und PHP Mikroservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Erweiterung von Node.js und RabbitMq Mikroservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Entwicklung von responsiven Websiten mit Verwendung der Sprachen: PHP, CSS, SCSS, HTML, React, Redux, Javascript und jQuery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Arbeitsrythmus im Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockerisierung von Node.js Applikationen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockerisierung einer PostgreSql Datenbank")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Durchf\xFChrung einer internen Docker Schulung f\xFCr Entwickler")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Durchf\xFChrung einer internen Docker-compose Schulung")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Mitentwicklung eines Base-Linux-Image f\xFCr Entwickler")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Code Deployment mittels Bamboo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Entwicklung eines ChatBots als Prototyp in Node.js"))),
+  "2017_2018": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Entwicklung & Erweiterung von NodeJs und PHPMikroservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Erweiterung & Erstellung von responsiven Websiten unter Verwendung der Sprachen: ExtJs, Javascript, jQuery, Css, HTML, PHP, SQL ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Verwendung des Versionierungssystems: Git")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Arbeitsrythmus im Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentation erledigter Arbeit, mit Hilfe Atlasian Produkten (Jira, Confluence)"))),
+  "2015_2017": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Annahme, Analyse und Behebung von St\xF6rungen im Hard \u2013und Software Bereich")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentation der St\xF6rungsmeldungen im CISM Ticketsystem")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Weiterleitung der St\xF6rungsmeldung an nachgelagerte Support Einheiten")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Erstl\xF6sung von Windows 7 und Outlook Problemen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Service Level Agreement 90% der Direktl\xF6sungen"))),
+  "2013_2014": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Second Level Support im Bereich Windows 7")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Erstl\xF6sung von Windows 7 und Lotus Notes Problemen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentation und Weiterleitung der St\xF6rungsmeldung an den 2nd Level Support")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Service Level Agreement 80% der Direktl\xF6sungen"))),
+  "2007_2013": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Personal Training: Krafttraining & Fitness")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Durchf\xFChrung von Fitness Sessions (in Gruppen / Individuell)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Erstellung von individualisierten Ern\xE4hrungspl\xE4nen und Trainingspl\xE4nen")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Beratung im Bereich Supplementation, Ern\xE4hrung und Training"))),
+  area_history: 'Historie',
+  area_projects: 'Projekte',
+  munich: 'München',
+  kattowitz: 'Kattowitz',
+  tarnowitz: 'Tarnowitz'
 };
 /* harmony default export */ __webpack_exports__["default"] = (DE);
 
@@ -1117,7 +1396,191 @@ var EN = {
   project_scriptInjector: 'A Firefox addon project to create the ability to add your own code to any website. The injection of your own code can be timed. There is also a user interface for administration.',
   project_sourceCode: 'A Firefox add-on project to give the user the opportunity to display the source code of a website or its individual elements, as well as to download individual elements / code snippets.',
   project_protector: 'A Firefox add-on project that gives the end user the opportunity to block website requests, urls or individual domains using various blacklists. The administration of various lists and functions takes place in a user interface.',
-  open_website: 'Website'
+  open_website: 'Website',
+  "2018_2019": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Development, bug fix of websites and PHP microservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Extension of Node.js and RabbitMq microservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Development of responsive websites using the languages: PHP, CSS, SCSS, HTML, React, Redux, Javascript and jQuery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Working rhythm in the Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockerization of Node.js applications")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockerization of a PostgreSql database")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Implementation of an internal Docker training course for developers")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Implementation of an internal Docker-compose training")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Co-development of a base Linux image for developers")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Code deployment using Bamboo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Development of a ChatBot as a prototype in Node.js"))),
+  "2017_2018": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Development and expansion of NodeJs and PHP microservices")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Extension & creation of responsive websites using the languages: ExtJs, Javascript, jQuery, Css, HTML, PHP, SQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Use of the versioning system: Git")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Working rhythm in the Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Documentation of work done, with the help of Atlasian products (Jira, Confluence)"))),
+  "2015_2017": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Acceptance, analysis and rectification of faults in the hardware and software area")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Documentation of the error messages in the CISM ticket system")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Forwarding of the error message to downstream support units")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "First solution of Windows 7 and Outlook problems")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Service Level Agreement 90% of the direct solutions"))),
+  "2013_2014": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Second level support in Windows 7")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "First solution of Windows 7 and Lotus Notes problems")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Documentation and forwarding of the fault report to the 2nd level support")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Service Level Agreement 80% of the direct solutions"))),
+  "2007_2013": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Personal training: strength training & fitness")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Conducting fitness sessions")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Creation of individualized nutrition plans and training plans")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Advice on supplementation, nutrition and training"))),
+  area_history: 'History',
+  area_projects: 'Projects',
+  munich: 'Munich',
+  kattowitz: 'Kattowitz',
+  tarnowitz: 'Tarnowitz'
 };
 /* harmony default export */ __webpack_exports__["default"] = (EN);
 
@@ -1150,7 +1613,191 @@ var PL = {
   project_scriptInjector: 'Projekt dodatku do Firefoksa umożliwiający dodanie własnego kodu do dowolnej witryny internetowej. Wstrzyknięcie własnego kodu można zaplanować. Istnieje również interfejs użytkownika do administrowania.',
   project_sourceCode: 'Projekt dodatku do Firefoksa, który daje użytkownikowi możliwość wyświetlenia kodu źródłowego strony internetowej lub jej poszczególnych elementów, a także pobranie poszczególnych elementów / fragmentów kodu.',
   project_protector: 'Projekt dodatku do Firefoksa, który daje użytkownikowi końcowemu możliwość blokowania żądań stron internetowych, adresów URL lub pojedynczych domen za pomocą różnych czarnych list. Zarządzanie różnymi listami i funkcjami odbywa się w interfejsie użytkownika.',
-  open_website: 'Strona'
+  open_website: 'Strona',
+  "2018_2019": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rozw\xF3j, naprawa b\u0142\u0119d\xF3w stron internetowych i mikroserwis\xF3w PHP")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rozszerzenie mikrous\u0142ug Node.js i RabbitMq")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Tworzenie responsywnych stron internetowych w j\u0119zykach: PHP, CSS, SCSS, HTML, React, Redux, Javascript i jQuery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rytm pracy w Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockeryzacja aplikacji Node.js")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dockeryzacja bazy danych PostgreSql")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Wdro\u017Cenie wewn\u0119trznego szkolenia Docker dla programist\xF3w")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Wdro\u017Cenie wewn\u0119trznego szkolenia Docker-compose")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Wsp\xF3\u0142tworzenie podstawowego obrazu Linuksa dla programist\xF3w")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Wdra\u017Canie kodu za pomoc\u0105 Bamboo")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rozw\xF3j ChatBota jako prototypu w Node.js."))),
+  "2017_2018": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rozw\xF3j i rozbudowa mikroserwis\xF3w NodeJ i PHP")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rozszerzanie i tworzenie responsywnych stron internetowych w j\u0119zykach: ExtJs, Javascript, jQuery, Css, HTML, PHP, SQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Korzystanie z systemu wersjonowania: Git")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Rytm pracy w Scrum Framework")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentacja wykonanych prac przy pomocy produkt\xF3w Atlasian (Jira, Confluence)"))),
+  "2015_2017": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Akceptacja, analiza i usuwanie usterek w obszarze sprz\u0119tu i oprogramowania")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentacja komunikat\xF3w o b\u0142\u0119dach w systemie biletowym CISM")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Przekazywanie komunikatu o b\u0142\u0119dzie do dalszych jednostek wsparcia")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Pierwsze rozwi\u0105zanie problem\xF3w z Windows 7 i Outlookiem")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Umowa dotycz\u0105ca poziomu us\u0142ug 90% bezpo\u015Brednich rozwi\u0105za\u0144"))),
+  "2013_2014": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Obs\u0142uga drugiego poziomu w systemie Windows 7")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Pierwsze rozwi\u0105zanie problem\xF3w z Windows 7 i Lotus Notes")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Dokumentacja i przekazanie raportu o usterce do wsparcia drugiego poziomu")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Umowa dotycz\u0105ca poziomu us\u0142ug 80% bezpo\u015Brednich rozwi\u0105za\u0144"))),
+  "2007_2013": /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Trening osobisty: trening si\u0142owy i fitness")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Prowadzenie sesji fitness")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Tworzenie zindywidualizowanych plan\xF3w \u017Cywieniowych i plan\xF3w treningowych")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "flex"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-angle-right icon-right"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "Porady dotycz\u0105ce suplementacji, od\u017Cywiania i treningu"))),
+  area_history: 'Historia',
+  area_projects: 'Projekty',
+  munich: 'Monachium',
+  kattowitz: 'Katowice',
+  tarnowitz: 'Tarnowskie Góry'
 };
 /* harmony default export */ __webpack_exports__["default"] = (PL);
 
@@ -12427,7 +13074,7 @@ module.exports = __webpack_require__("./node_modules/core-js/modules/_core.js");
 
 exports = module.exports = __webpack_require__("./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  display: table;\n  width: 100vw;\n  max-width: 100%;\n  overflow-x: hidden; }\n\n.bc-a {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-b {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-c {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-d {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-e {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-f {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-g {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-h {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-i {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-j {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-k {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-l {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-m {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-n {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-o {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-p {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-q {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-r {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-s {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-t {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-u {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-v {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-w {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-x {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-y {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-z {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bg-dark-link {\n  background-color: #2D3748 !important; }\n\n* {\n  font-family: Helvetica Neue, Arial, sans-serif; }\n\n.w-100 {\n  width: 100% !important; }\n\n.text-elipsis {\n  overflow: hidden;\n  white-space: nowrap;\n  word-wrap: none;\n  text-overflow: ellipsis; }\n\n.block {\n  display: block; }\n\n.flex {\n  display: flex; }\n\n.flex-row {\n  flex-direction: row; }\n\n.flex-column {\n  flex-direction: column; }\n\n.flex-start {\n  justify-content: flex-start; }\n\n.flex-space-around {\n  justify-content: space-around; }\n\n.flex-space-between {\n  justify-content: space-between; }\n\n.relative {\n  position: relative; }\n\n.m0 {\n  margin: 0 !important; }\n\n.mt-1 {\n  margin-top: 10px; }\n\n.mt-2 {\n  margin-top: 20px; }\n\n.mt-3 {\n  margin-top: 30px; }\n\n.mt-4 {\n  margin-top: 40px; }\n\n.mb-2 {\n  margin-bottom: 20px; }\n\n.mb-3 {\n  margin-bottom: 30px; }\n\n.mb-4 {\n  margin-bottom: 40px; }\n\n.my-2 {\n  margin-left: 20px !important;\n  margin-right: 20px !important; }\n\n.font-input {\n  font-weight: 400;\n  font-size: 1rem;\n  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; }\n\n.ff-title {\n  font-family: Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif; }\n\n.h1-title {\n  color: #72777a;\n  font-size: 1.6rem;\n  font-weight: 400;\n  font-family: Ubuntu, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;\n  letter-spacing: 0.01123rem;\n  text-align: center;\n  margin: 30px 0; }\n\n.text-center {\n  text-align: center; }\n\n.ff-roboto {\n  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; }\n\n.buttons-group {\n  box-sizing: border-box;\n  padding: 10px;\n  max-width: 90%;\n  margin: 20px 5%; }\n\n.buttons-group-delete-account {\n  box-sizing: border-box;\n  padding: 10px;\n  max-width: 90%;\n  margin: 0 5%; }\n\n.yellow {\n  color: #ffeb3b; }\n\n.red {\n  color: #f44559; }\n\n.green {\n  color: #47b476; }\n\n.lime {\n  color: #C3FAE8; }\n\n.dodgerblue {\n  color: #1873CC; }\n\n.little-gray {\n  color: rgba(69, 69, 69, 0.7); }\n\n.action-icon {\n  color: #313435;\n  opacity: 0.8; }\n\n.action-icon:hover {\n  cursor: pointer; }\n\n.d-block {\n  display: block !important; }\n\n.d-none {\n  display: none !important; }\n\n.py-2 {\n  padding: 20px 0; }\n\n.my-2 {\n  margin: 20px 0; }\n\n.my-0 {\n  margin: 0px 0 !important; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.mr-2 {\n  margin-right: 20px; }\n\nh1,\n.h1 {\n  color: rgba(0, 0, 0, 0.77); }\n\n.text-center {\n  text-align: center; }\n\n.icon-security {\n  color: rgba(248, 165, 27, 0.7); }\n\n.icon-images {\n  color: rgba(30, 144, 255, 0.8); }\n\n.icon-messages {\n  color: #7a7a7a; }\n\n.icon-iframes {\n  color: rgba(71, 180, 118, 0.7); }\n\n.icon-cookies {\n  color: #deb887; }\n\n.cursor-pointer {\n  cursor: pointer; }\n\n.ellipsis {\n  width: 100%;\n  overflow: hidden;\n  white-space: nowrap;\n  word-wrap: none;\n  text-overflow: ellipsis; }\n\n.button-action {\n  box-sizing: border-box;\n  padding: 10px 15px;\n  border-radius: 3px;\n  background-color: #1873CC;\n  box-shadow: 0px 0px 3px #1873CC;\n  color: white;\n  font-size: 0.87rem;\n  transition-duration: 200ms;\n  border: 1px solid transparent;\n  display: inline-block;\n  margin: 10px 0;\n  text-decoration: none; }\n\n.button-action:hover {\n  border: 1px solid #1873CC;\n  cursor: pointer; }\n\n.rr-sourcecode {\n  border-radius: 5px; }\n  .rr-sourcecode .code {\n    background-color: #2D3748;\n    overflow: hidden;\n    border-radius: 5px;\n    box-sizing: border-box; }\n    .rr-sourcecode .code .single-code-line-first .line-number,\n    .rr-sourcecode .code .single-code-line-first .line-code {\n      padding-top: 10px; }\n    .rr-sourcecode .code .single-code-line-last .line-number,\n    .rr-sourcecode .code .single-code-line-last .line-code {\n      padding-bottom: 10px; }\n    .rr-sourcecode .code .line-number {\n      box-sizing: border-box;\n      padding: 3px 0 3px 7px;\n      color: #718096;\n      font-size: 0.77rem;\n      margin-right: 10px; }\n    .rr-sourcecode .code .line-code {\n      box-sizing: border-box;\n      padding: 3px 0;\n      letter-spacing: 0.077rem;\n      font-size: 0.87rem; }\n\n.title-border {\n  box-sizing: border-box;\n  padding: 10px 0;\n  margin: 10px 0 20px 0;\n  color: #72777a;\n  border-bottom: 1px solid #dadce0;\n  font-size: 1.1rem; }\n  .title-border i {\n    margin: 0 10px; }\n\n.Header {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  min-height: 50px;\n  background: transparent; }\n  .Header a {\n    display: inline-block;\n    box-sizing: border-box;\n    padding: 10px;\n    margin: 10px;\n    color: white;\n    position: relative;\n    z-index: 1; }\n\n@keyframes aHrefWidth {\n  0% {\n    left: 50%;\n    width: 0%; }\n  100% {\n    left: 0%;\n    width: 100%; } }\n  .Header a:after,\n  .Header a:before {\n    content: '';\n    position: absolute;\n    width: 0px;\n    height: 1px;\n    bottom: 3px;\n    left: 50%;\n    border-radius: 5px;\n    transition-duration: 200ms; }\n  .Header a:after {\n    z-index: 2;\n    background-color: white; }\n  .Header a:hover:after {\n    animation: aHrefWidth 200ms forwards ease-in; }\n  .Header a:before {\n    z-index: 3;\n    background-color: #72777a; }\n  .Header a:hover:before {\n    animation: aHrefWidth 200ms 200ms forwards ease-in; }\n\n.Home .picture {\n  width: 100vw;\n  min-height: 100vh;\n  height: auto;\n  overflow: auto;\n  background-repeat: no-repeat;\n  background-blend-mode: darken;\n  background-attachment: fixed;\n  background-image: url(\"https://images.unsplash.com/photo-1602523961358-f9f03dd557db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80\");\n  background-size: cover;\n  display: flex; }\n  .Home .picture .text {\n    text-align: center;\n    margin: auto; }\n    .Home .picture .text h1 {\n      color: white;\n      font-size: 3.3rem; }\n    .Home .picture .text h2 span {\n      display: inline-block;\n      margin: 10px 0;\n      color: white;\n      letter-spacing: 00.143rem; }\n\n.Home .data {\n  max-width: 1400px;\n  margin: 50px auto;\n  box-sizing: border-box;\n  padding: 0 20px; }\n  .Home .data .rr-cards {\n    width: 100%; }\n    .Home .data .rr-cards .card {\n      width: 100%;\n      margin: 0 40px;\n      border: none; }\n      .Home .data .rr-cards .card .title i,\n      .Home .data .rr-cards .card .content,\n      .Home .data .rr-cards .card h1 {\n        color: #72777a; }\n      .Home .data .rr-cards .card .title {\n        text-align: center; }\n        .Home .data .rr-cards .card .title h1 {\n          margin-top: 20px;\n          font-size: 1.1rem;\n          font-weight: 400;\n          letter-spacing: 0.143rem; }\n        .Home .data .rr-cards .card .title i {\n          font-size: 3.3rem; }\n      .Home .data .rr-cards .card .content {\n        font-size: 0.88rem;\n        line-height: 25px; }\n        .Home .data .rr-cards .card .content span {\n          display: block;\n          box-sizing: border-box;\n          padding: 0 10px; }\n        .Home .data .rr-cards .card .content .link {\n          margin-top: 20px;\n          border-top: 1px solid #dadce0; }\n    .Home .data .rr-cards .isMinified .card {\n      margin: 10px 0;\n      width: calc(100% - 20px); }\n\n.Home .recent-projects {\n  max-width: 1400px;\n  margin: 0 auto;\n  box-sizing: border-box;\n  padding: 0 20px; }\n  .Home .recent-projects .single-entry {\n    margin: 20px;\n    width: calc(100% - 40px); }\n  .Home .recent-projects .isMinified .single-entry {\n    margin: 10px 0;\n    width: calc(100% - 20px); }\n  .Home .recent-projects .image-holder {\n    margin: 10px;\n    border-radius: 5px; }\n    .Home .recent-projects .image-holder .image {\n      background-size: cover;\n      background-repeat: no-repeat;\n      background-blend-mode: darken;\n      border-radius: 5px; }\n  .Home .recent-projects .title {\n    padding: 15px 0;\n    font-size: 1.1rem;\n    width: calc(60% - 20px); }\n  .Home .recent-projects .text {\n    display: inline-block;\n    width: calc(60% - 40px);\n    line-height: 20px;\n    text-align: justify; }\n\n.History {\n  min-height: 100vh; }\n  .History .Content .header {\n    z-index: 5; }\n\n#app .History .rr-popupbox {\n  float: right;\n  margin: 0 10px; }\n  #app .History .rr-popupbox .icon {\n    color: #72777a; }\n  #app .History .rr-popupbox .icon:hover {\n    background-color: rgba(122, 122, 122, 0.13); }\n\n.Projects .link {\n  width: 100%;\n  clear: both; }\n  .Projects .link .link-animation {\n    float: left;\n    margin: 20px 0;\n    min-width: 100px;\n    padding: 5px 10px; }\n\n.Footer {\n  width: 100vw;\n  min-height: 100px;\n  background: black;\n  text-align: center;\n  margin-top: 50px; }\n  .Footer h1,\n  .Footer h2 {\n    color: #72777a; }\n  .Footer h1 {\n    font-size: 1.1rem;\n    letter-spacing: 00.143rem;\n    line-height: 60px; }\n  .Footer h2 {\n    letter-spacing: 00.6rem; }\n\na {\n  text-decoration: none;\n  display: block; }\n\na,\np,\ndiv,\nspan,\nh1,\nh2 {\n  font-size: 0.87rem;\n  letter-spacing: 0.023rem; }\n\n*::selection {\n  background-color: black;\n  color: white; }\n\n.link-animation {\n  width: 15%;\n  min-width: 140px;\n  border-radius: 5px;\n  box-sizing: border-box;\n  padding: 10px 20px;\n  background-color: #333333;\n  color: white;\n  position: relative;\n  z-index: 2;\n  margin: 20px auto;\n  text-align: center;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap; }\n\n.link-animation:after {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 0%;\n  bottom: 0;\n  left: 0;\n  border-radius: 5px;\n  transition-duration: 200ms;\n  z-index: -1;\n  background-color: #212121; }\n\n.link-animation:hover:after {\n  height: 100%; }\n\n.Content {\n  height: 100vh;\n  overflow-y: auto; }\n\n.Header .rr-popupbox,\n.History .rr-popupbox,\n.Projects .rr-popupbox {\n  margin: 5px 20px;\n  display: inline-block; }\n  .Header .rr-popupbox .icon,\n  .History .rr-popupbox .icon,\n  .Projects .rr-popupbox .icon {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 30px;\n    text-align: center;\n    background-color: transparent;\n    transition: 200ms;\n    border-radius: 50%;\n    color: white;\n    padding: 5px;\n    font-size: 1.1rem; }\n  .Header .rr-popupbox .icon:hover,\n  .History .rr-popupbox .icon:hover,\n  .Projects .rr-popupbox .icon:hover {\n    cursor: pointer;\n    background-color: rgba(122, 122, 122, 0.33); }\n  .Header .rr-popupbox .box.top-right,\n  .History .rr-popupbox .box.top-right,\n  .Projects .rr-popupbox .box.top-right {\n    right: 10px;\n    top: calc(100% + 10px);\n    background-color: white;\n    min-width: 200px; }\n    .Header .rr-popupbox .box.top-right .title,\n    .History .rr-popupbox .box.top-right .title,\n    .Projects .rr-popupbox .box.top-right .title {\n      box-sizing: border-box;\n      padding: 5px 10px;\n      min-height: 30px;\n      line-height: 30px; }\n      .Header .rr-popupbox .box.top-right .title i,\n      .History .rr-popupbox .box.top-right .title i,\n      .Projects .rr-popupbox .box.top-right .title i {\n        display: inline-block;\n        margin-right: 10px; }\n    .Header .rr-popupbox .box.top-right ul,\n    .History .rr-popupbox .box.top-right ul,\n    .Projects .rr-popupbox .box.top-right ul {\n      margin: 0;\n      padding: 0; }\n      .Header .rr-popupbox .box.top-right ul li,\n      .History .rr-popupbox .box.top-right ul li,\n      .Projects .rr-popupbox .box.top-right ul li {\n        box-sizing: border-box;\n        padding: 10px 15px;\n        margin: 5px 0;\n        background-color: transparent;\n        transition: 200ms;\n        color: #7a7a7a; }\n      .Header .rr-popupbox .box.top-right ul li:hover,\n      .History .rr-popupbox .box.top-right ul li:hover,\n      .Projects .rr-popupbox .box.top-right ul li:hover {\n        background-color: #1873CC;\n        color: white;\n        cursor: pointer; }\n\n.History .rr-articles-images,\n.Projects .rr-articles-images {\n  box-sizing: border-box;\n  padding: 0 20px; }\n  .History .rr-articles-images .single-entry,\n  .Projects .rr-articles-images .single-entry {\n    margin: 20px;\n    width: calc(50% - 40px); }\n  .History .rr-articles-images .isMinified .single-entry,\n  .Projects .rr-articles-images .isMinified .single-entry {\n    margin: 10px 0;\n    width: calc(100% - 20px); }\n  .History .rr-articles-images .image-holder,\n  .Projects .rr-articles-images .image-holder {\n    margin: 10px;\n    border-radius: 5px; }\n    .History .rr-articles-images .image-holder .image,\n    .Projects .rr-articles-images .image-holder .image {\n      background-size: cover;\n      background-repeat: no-repeat;\n      background-blend-mode: darken;\n      border-radius: 5px; }\n  .History .rr-articles-images .title,\n  .Projects .rr-articles-images .title {\n    padding: 15px 0;\n    font-size: 1.1rem;\n    width: calc(60% - 20px); }\n  .History .rr-articles-images .text,\n  .Projects .rr-articles-images .text {\n    display: inline-block;\n    width: calc(60% - 40px);\n    line-height: 20px;\n    text-align: justify; }\n\n.History,\n.Projects {\n  width: 100%;\n  height: 100vh;\n  overflow: hidden; }\n  .History .rr-menu-click-horizontal .single-entry,\n  .Projects .rr-menu-click-horizontal .single-entry {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    transition-duration: 200ms;\n    border-radius: 0px;\n    background-color: transparent; }\n    .History .rr-menu-click-horizontal .single-entry a,\n    .Projects .rr-menu-click-horizontal .single-entry a {\n      color: #72777a; }\n      .History .rr-menu-click-horizontal .single-entry a i,\n      .Projects .rr-menu-click-horizontal .single-entry a i {\n        display: inline-block;\n        width: 30px;\n        text-align: center;\n        margin-right: 10px; }\n  .History .rr-menu-click-horizontal .single-entry:hover,\n  .Projects .rr-menu-click-horizontal .single-entry:hover {\n    background-color: rgba(192, 192, 192, 0.2); }\n  .History .footer-links,\n  .Projects .footer-links {\n    width: 100%; }\n    .History .footer-links a,\n    .Projects .footer-links a {\n      width: 100px;\n      box-sizing: border-box;\n      padding: 10px;\n      border-radius: 5px;\n      margin: 10px; }\n", ""]);
+exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/ \n   v2.0 | 20110126\n   License: none (public domain)\n*/\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nhtml {\n  display: table;\n  width: 100vw;\n  max-width: 100%;\n  overflow-x: hidden; }\n\n.bc-a {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-b {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-c {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-d {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-e {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-f {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-g {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-h {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-i {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-j {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-k {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-l {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-m {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-n {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-o {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-p {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-q {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-r {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-s {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-t {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-u {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-v {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-w {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-x {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-y {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bc-z {\n  background-color: rgba(0, 105, 148, 0.8); }\n\n.bg-dark-link {\n  background-color: #2D3748 !important; }\n\n* {\n  font-family: Helvetica Neue, Arial, sans-serif; }\n\n.w-100 {\n  width: 100% !important; }\n\n.text-elipsis {\n  overflow: hidden;\n  white-space: nowrap;\n  word-wrap: none;\n  text-overflow: ellipsis; }\n\n.block {\n  display: block; }\n\n.flex {\n  display: flex; }\n\n.flex-row {\n  flex-direction: row; }\n\n.flex-column {\n  flex-direction: column; }\n\n.flex-start {\n  justify-content: flex-start; }\n\n.flex-space-around {\n  justify-content: space-around; }\n\n.flex-space-between {\n  justify-content: space-between; }\n\n.relative {\n  position: relative; }\n\n.m0 {\n  margin: 0 !important; }\n\n.mt-1 {\n  margin-top: 10px; }\n\n.mt-2 {\n  margin-top: 20px; }\n\n.mt-3 {\n  margin-top: 30px; }\n\n.mt-4 {\n  margin-top: 40px; }\n\n.mb-2 {\n  margin-bottom: 20px; }\n\n.mb-3 {\n  margin-bottom: 30px; }\n\n.mb-4 {\n  margin-bottom: 40px; }\n\n.my-2 {\n  margin-left: 20px !important;\n  margin-right: 20px !important; }\n\n.font-input {\n  font-weight: 400;\n  font-size: 1rem;\n  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; }\n\n.ff-title {\n  font-family: Ubuntu, Roboto, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif; }\n\n.h1-title,\n.h1-title .rr-text-writer {\n  color: #72777a;\n  font-size: 1.6rem;\n  font-weight: 400;\n  font-family: Ubuntu, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;\n  letter-spacing: 0.01123rem;\n  text-align: center;\n  margin: 30px 0; }\n\n.text-center {\n  text-align: center; }\n\n.ff-roboto {\n  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; }\n\n.buttons-group {\n  box-sizing: border-box;\n  padding: 10px;\n  max-width: 90%;\n  margin: 20px 5%; }\n\n.buttons-group-delete-account {\n  box-sizing: border-box;\n  padding: 10px;\n  max-width: 90%;\n  margin: 0 5%; }\n\n.yellow {\n  color: #ffeb3b; }\n\n.red {\n  color: #f44559; }\n\n.green {\n  color: #47b476; }\n\n.lime {\n  color: #C3FAE8; }\n\n.dodgerblue {\n  color: #1873CC; }\n\n.little-gray {\n  color: rgba(69, 69, 69, 0.7); }\n\n.action-icon {\n  color: #313435;\n  opacity: 0.8; }\n\n.action-icon:hover {\n  cursor: pointer; }\n\n.d-block {\n  display: block !important; }\n\n.d-none {\n  display: none !important; }\n\n.py-2 {\n  padding: 20px 0; }\n\n.my-2 {\n  margin: 20px 0; }\n\n.my-0 {\n  margin: 0px 0 !important; }\n\n.no-padding {\n  padding: 0px !important; }\n\n.mr-2 {\n  margin-right: 20px; }\n\nh1,\n.h1 {\n  color: rgba(0, 0, 0, 0.77); }\n\n.text-center {\n  text-align: center; }\n\n.icon-security {\n  color: rgba(248, 165, 27, 0.7); }\n\n.icon-images {\n  color: rgba(30, 144, 255, 0.8); }\n\n.icon-messages {\n  color: #7a7a7a; }\n\n.icon-iframes {\n  color: rgba(71, 180, 118, 0.7); }\n\n.icon-cookies {\n  color: #deb887; }\n\n.cursor-pointer {\n  cursor: pointer; }\n\n.ellipsis {\n  width: 100%;\n  overflow: hidden;\n  white-space: nowrap;\n  word-wrap: none;\n  text-overflow: ellipsis; }\n\n.button-action {\n  box-sizing: border-box;\n  padding: 10px 15px;\n  border-radius: 3px;\n  background-color: #1873CC;\n  box-shadow: 0px 0px 3px #1873CC;\n  color: white;\n  font-size: 0.87rem;\n  transition-duration: 200ms;\n  border: 1px solid transparent;\n  display: inline-block;\n  margin: 10px 0;\n  text-decoration: none; }\n\n.button-action:hover {\n  border: 1px solid #1873CC;\n  cursor: pointer; }\n\n.rr-sourcecode {\n  border-radius: 5px; }\n  .rr-sourcecode .code {\n    background-color: #2D3748;\n    overflow: hidden;\n    border-radius: 5px;\n    box-sizing: border-box; }\n    .rr-sourcecode .code .single-code-line-first .line-number,\n    .rr-sourcecode .code .single-code-line-first .line-code {\n      padding-top: 10px; }\n    .rr-sourcecode .code .single-code-line-last .line-number,\n    .rr-sourcecode .code .single-code-line-last .line-code {\n      padding-bottom: 10px; }\n    .rr-sourcecode .code .line-number {\n      box-sizing: border-box;\n      padding: 3px 0 3px 7px;\n      color: #718096;\n      font-size: 0.77rem;\n      margin-right: 10px; }\n    .rr-sourcecode .code .line-code {\n      box-sizing: border-box;\n      padding: 3px 0;\n      letter-spacing: 0.077rem;\n      font-size: 0.87rem; }\n\n.title-border {\n  box-sizing: border-box;\n  padding: 10px 0;\n  margin: 10px 0 20px 0;\n  color: #72777a;\n  border-bottom: 1px solid #dadce0;\n  font-size: 1.1rem; }\n  .title-border i {\n    margin: 0 10px; }\n\n.Header {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  min-height: 50px;\n  background: transparent; }\n  .Header a {\n    display: inline-block;\n    box-sizing: border-box;\n    padding: 10px;\n    margin: 10px;\n    color: white;\n    position: relative;\n    z-index: 1; }\n\n@keyframes aHrefWidth {\n  0% {\n    left: 50%;\n    width: 0%; }\n  100% {\n    left: 0%;\n    width: 100%; } }\n  .Header a:after,\n  .Header a:before {\n    content: '';\n    position: absolute;\n    width: 0px;\n    height: 1px;\n    bottom: 3px;\n    left: 50%;\n    border-radius: 5px;\n    transition-duration: 200ms; }\n  .Header a:after {\n    z-index: 2;\n    background-color: white; }\n  .Header a:hover:after {\n    animation: aHrefWidth 200ms forwards ease-in; }\n  .Header a:before {\n    z-index: 3;\n    background-color: #72777a; }\n  .Header a:hover:before {\n    animation: aHrefWidth 200ms 200ms forwards ease-in; }\n\n.Home .picture {\n  width: 100vw;\n  min-height: 100vh;\n  height: auto;\n  overflow: auto;\n  background-repeat: no-repeat;\n  background-blend-mode: darken;\n  background-attachment: fixed;\n  background-image: url(\"https://images.unsplash.com/photo-1602523961358-f9f03dd557db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80\");\n  background-size: cover;\n  display: flex; }\n  .Home .picture .text {\n    text-align: center;\n    margin: auto; }\n    .Home .picture .text h1 {\n      color: white;\n      font-size: 3.3rem; }\n    .Home .picture .text h2 span {\n      display: inline-block;\n      margin: 10px 0;\n      color: white;\n      letter-spacing: 00.143rem; }\n\n.Home .data {\n  max-width: 1400px;\n  margin: 50px auto;\n  box-sizing: border-box;\n  padding: 0 20px; }\n  .Home .data .rr-cards {\n    width: 100%; }\n    .Home .data .rr-cards .card {\n      width: 100%;\n      margin: 0 40px;\n      border: none; }\n      .Home .data .rr-cards .card .title i,\n      .Home .data .rr-cards .card .content,\n      .Home .data .rr-cards .card h1 {\n        color: #72777a; }\n      .Home .data .rr-cards .card .title {\n        text-align: center; }\n        .Home .data .rr-cards .card .title h1 {\n          margin-top: 20px;\n          font-size: 1.1rem;\n          font-weight: 400;\n          letter-spacing: 0.143rem; }\n        .Home .data .rr-cards .card .title i {\n          font-size: 3.3rem; }\n      .Home .data .rr-cards .card .content {\n        font-size: 0.88rem;\n        line-height: 25px; }\n        .Home .data .rr-cards .card .content span {\n          display: block;\n          box-sizing: border-box;\n          padding: 0 10px; }\n        .Home .data .rr-cards .card .content .link {\n          margin-top: 20px;\n          border-top: 1px solid #dadce0; }\n    .Home .data .rr-cards .isMinified .card {\n      margin: 10px 0;\n      width: calc(100% - 20px); }\n\n.History {\n  min-height: 100vh; }\n  .History .Content .header {\n    z-index: 5; }\n  .History .rr-timeline .single-entry .data-holder {\n    border-color: transparent !important;\n    padding: 5px; }\n  .History .rr-timeline .single-entry .title {\n    padding: 0px; }\n  .History .rr-timeline .single-entry h1,\n  .History .rr-timeline .single-entry h2,\n  .History .rr-timeline .single-entry .tasks {\n    box-sizing: border-box;\n    padding: 10px;\n    border: 1px solid #dadce0;\n    border-radius: 5px;\n    margin: 10px 0; }\n  .History .rr-timeline .single-entry h1, .History .rr-timeline .single-entry h2 {\n    color: #72777a;\n    font-size: 1.1rem;\n    font-weight: 400;\n    font-family: Ubuntu, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;\n    letter-spacing: 0.01123rem;\n    text-align: left; }\n  .History .rr-timeline .single-entry h2 {\n    letter-spacing: 0.03rem;\n    color: #1873CC; }\n  .History .rr-timeline .single-entry ul {\n    box-sizing: border-box; }\n    .History .rr-timeline .single-entry ul li {\n      min-height: 25px;\n      line-height: 25px; }\n      .History .rr-timeline .single-entry ul li .icon-right {\n        width: 20px;\n        text-align: left; }\n  .History .rr-timeline .single-entry .icons i {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 30px;\n    text-align: center;\n    font-size: 1.1rem;\n    background-color: transparent;\n    border-radius: 50%;\n    border: 1px solid transparent;\n    transition-duration: 200ms;\n    margin: 20px 10px 10px 10px;\n    color: #72777a; }\n  .History .rr-timeline .single-entry .icons i:hover {\n    border: 1px solid #dadce0;\n    background-color: rgba(30, 144, 255, 0.1); }\n  .History .rr-timeline .single-entry .icons .php {\n    color: purple; }\n  .History .rr-timeline .single-entry .icons .node {\n    color: #83CD29; }\n  .History .rr-timeline .single-entry .icons .js {\n    color: #E9D63D; }\n  .History .rr-timeline .single-entry .icons .css {\n    color: #254BDD; }\n  .History .rr-timeline .single-entry .icons .html {\n    color: #DD4825; }\n  .History .rr-timeline .single-entry .icons .docker {\n    color: #2391E6; }\n  .History .rr-timeline .single-entry .icons .react {\n    color: #5ED3F3; }\n  .History .rr-timeline .single-entry .icons .heart {\n    color: #FF4456; }\n\n#app .History .rr-popupbox {\n  float: right;\n  margin: 0 10px; }\n  #app .History .rr-popupbox .icon {\n    color: #72777a; }\n  #app .History .rr-popupbox .icon:hover {\n    background-color: rgba(122, 122, 122, 0.13); }\n\n.Projects .link {\n  width: 100%;\n  clear: both; }\n  .Projects .link .link-animation {\n    float: left;\n    margin: 20px 0;\n    min-width: 100px;\n    padding: 5px 10px; }\n\n.Footer {\n  width: 100vw;\n  min-height: 100px;\n  background: black;\n  text-align: center;\n  margin-top: 50px; }\n  .Footer h1,\n  .Footer h2 {\n    color: #72777a; }\n  .Footer h1 {\n    font-size: 1.1rem;\n    letter-spacing: 00.143rem;\n    line-height: 60px; }\n  .Footer h2 {\n    letter-spacing: 00.6rem; }\n\na {\n  text-decoration: none;\n  display: block; }\n\na,\np,\ndiv,\nspan,\nh1,\nh2 {\n  font-size: 0.87rem;\n  letter-spacing: 0.023rem; }\n\n*::selection {\n  background-color: black;\n  color: white; }\n\n.link-animation {\n  width: 15%;\n  min-width: 140px;\n  border-radius: 5px;\n  box-sizing: border-box;\n  padding: 10px 20px;\n  background-color: #333333;\n  color: white;\n  position: relative;\n  z-index: 2;\n  margin: 20px auto;\n  text-align: center;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap; }\n\n.link-animation:after {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 0%;\n  bottom: 0;\n  left: 0;\n  border-radius: 5px;\n  transition-duration: 200ms;\n  z-index: -1;\n  background-color: #212121; }\n\n.link-animation:hover:after {\n  height: 100%; }\n\n.Content {\n  height: 100vh;\n  overflow-y: auto; }\n\n.Header .rr-popupbox,\n.History .rr-popupbox,\n.Projects .rr-popupbox {\n  margin: 5px 20px;\n  display: inline-block; }\n  .Header .rr-popupbox .icon,\n  .History .rr-popupbox .icon,\n  .Projects .rr-popupbox .icon {\n    display: inline-block;\n    width: 30px;\n    height: 30px;\n    line-height: 30px;\n    text-align: center;\n    background-color: transparent;\n    transition: 200ms;\n    border-radius: 50%;\n    color: white;\n    padding: 5px;\n    font-size: 1.1rem; }\n  .Header .rr-popupbox .icon:hover,\n  .History .rr-popupbox .icon:hover,\n  .Projects .rr-popupbox .icon:hover {\n    cursor: pointer;\n    background-color: rgba(122, 122, 122, 0.33); }\n  .Header .rr-popupbox .box.top-right,\n  .History .rr-popupbox .box.top-right,\n  .Projects .rr-popupbox .box.top-right {\n    right: 10px;\n    top: calc(100% + 10px);\n    background-color: white;\n    min-width: 200px; }\n    .Header .rr-popupbox .box.top-right .title,\n    .History .rr-popupbox .box.top-right .title,\n    .Projects .rr-popupbox .box.top-right .title {\n      box-sizing: border-box;\n      padding: 5px 10px;\n      min-height: 30px;\n      line-height: 30px; }\n      .Header .rr-popupbox .box.top-right .title i,\n      .History .rr-popupbox .box.top-right .title i,\n      .Projects .rr-popupbox .box.top-right .title i {\n        display: inline-block;\n        margin-right: 10px; }\n    .Header .rr-popupbox .box.top-right ul,\n    .History .rr-popupbox .box.top-right ul,\n    .Projects .rr-popupbox .box.top-right ul {\n      margin: 0;\n      padding: 0; }\n      .Header .rr-popupbox .box.top-right ul li,\n      .History .rr-popupbox .box.top-right ul li,\n      .Projects .rr-popupbox .box.top-right ul li {\n        box-sizing: border-box;\n        padding: 10px 15px;\n        margin: 5px 0;\n        background-color: transparent;\n        transition: 200ms;\n        color: #7a7a7a; }\n      .Header .rr-popupbox .box.top-right ul li:hover,\n      .History .rr-popupbox .box.top-right ul li:hover,\n      .Projects .rr-popupbox .box.top-right ul li:hover {\n        background-color: #1873CC;\n        color: white;\n        cursor: pointer; }\n\n.rr-articles-images {\n  max-width: 1400px;\n  margin: 0 auto;\n  box-sizing: border-box;\n  padding: 0 20px; }\n  .rr-articles-images .single-entry {\n    margin: 20px;\n    width: calc(100% - 40px); }\n    .rr-articles-images .single-entry .title {\n      padding: 15px 0;\n      font-size: 1.1rem;\n      width: calc(60% - 40px);\n      color: #1873CC; }\n    .rr-articles-images .single-entry .text {\n      display: inline-block;\n      width: calc(60% - 40px);\n      line-height: 20px;\n      text-align: justify; }\n  .rr-articles-images .isMinified .single-entry {\n    margin: 10px 0;\n    width: calc(100% - 20px); }\n  .rr-articles-images .image-holder {\n    margin: 10px;\n    border-radius: 5px; }\n    .rr-articles-images .image-holder .image {\n      background-size: cover;\n      background-repeat: no-repeat;\n      background-blend-mode: darken;\n      border-radius: 5px; }\n\n.History,\n.Projects {\n  width: 100%;\n  height: 100vh;\n  overflow: hidden; }\n  .History .rr-menu-click-horizontal .single-entry,\n  .Projects .rr-menu-click-horizontal .single-entry {\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    transition-duration: 200ms;\n    border-radius: 0px;\n    background-color: transparent; }\n    .History .rr-menu-click-horizontal .single-entry a,\n    .Projects .rr-menu-click-horizontal .single-entry a {\n      color: #72777a; }\n      .History .rr-menu-click-horizontal .single-entry a i,\n      .Projects .rr-menu-click-horizontal .single-entry a i {\n        display: inline-block;\n        width: 30px;\n        text-align: center;\n        margin-right: 10px; }\n  .History .rr-menu-click-horizontal .single-entry:hover,\n  .Projects .rr-menu-click-horizontal .single-entry:hover {\n    background-color: rgba(192, 192, 192, 0.2); }\n  .History .footer-links,\n  .Projects .footer-links {\n    width: 100%; }\n    .History .footer-links a,\n    .Projects .footer-links a {\n      width: 100px;\n      box-sizing: border-box;\n      padding: 10px;\n      border-radius: 5px;\n      margin: 10px; }\n", ""]);
 
 
 

@@ -139,40 +139,21 @@ h2{
   }
 }
 
-.History,
-.Projects{
-  .rr-articles-images{
-    box-sizing: border-box;
-    padding: 0 20px;
-  
-    .single-entry{
-        margin: 20px;
-        width: calc(50% - 40px);
-    }
-  
-    .isMinified{
-        .single-entry{
-            margin: 10px 0;
-            width: calc(100% - 20px);
-        }   
-    }
-  
-    .image-holder {
-        margin: 10px;
-        border-radius: $border-radius;
-  
-        .image{
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-blend-mode: darken;
-            border-radius: $border-radius;
-        }
-    }
-  
-    .title{
+.rr-articles-images{
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  .single-entry{
+      margin: 20px;
+      width: calc(100% - 40px);
+
+      .title{
         padding: 15px 0;
         font-size: 1.1rem;
-        width: calc(60% - 20px);
+        width: calc(60% - 40px);
+        color: $dodgerblue;
     }
   
     .text{
@@ -181,6 +162,25 @@ h2{
         line-height: 20px;
         text-align: justify;
     }
+  }
+
+  .isMinified{
+      .single-entry{
+          margin: 10px 0;
+          width: calc(100% - 20px);
+      }   
+  }
+
+  .image-holder {
+      margin: 10px;
+      border-radius: $border-radius;
+
+      .image{
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: darken;
+          border-radius: $border-radius;
+      }
   }
 }
 
