@@ -51,11 +51,31 @@ class Home extends React.Component {
         };
     }
 
+    getRandomBackground(){
+
+        const images = [
+            'jonatan-pie-3l3RwQdHRHg-unsplash.jpg',
+            'roman-synkevych-vXInUOv1n84-unsplash.jpg',
+            'yancy-min-842ofHC6MaI-unsplash.jpg',
+        ];
+
+        return `./public/images/${images[Math.floor(Math.random() * images.length)]}`;
+    }
+
     render() {
+        const image = this.getRandomBackground();
+
         return (
             <div className="Home">
-                <Header/>
-                <div className="picture">
+                <Header />
+                <div
+                    className="picture"
+                    style={
+                        {
+                            backgroundImage: `url(${image})`,
+                        }
+                    }
+                >
                     <div className='text'>
                         <h1>
                             David Janitzek
@@ -123,7 +143,7 @@ class Home extends React.Component {
                         ]
                     }
                 />
-                <Footer/>
+                <Footer />
             </div>
         );
     }

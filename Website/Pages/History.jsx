@@ -44,8 +44,39 @@ class History extends React.Component {
                                     data={
                                         [
                                             {
-                                                title: '2018 - 2019',
+                                                title: `2019 - ${trans('now')}`,
                                                 align: 'left',
+                                                content: (
+                                                    <div className="box">
+                                                        <div className='title'>
+                                                            <h1>
+                                                                {
+                                                                    `neubau kompass AG, ${trans('munich')}`
+                                                                }
+                                                            </h1>
+                                                            <h2>
+                                                                Full Stack Developer
+                                                            </h2>
+                                                        </div>
+                                                        <div className='tasks'>
+                                                            {
+                                                                trans('2019_now')
+                                                            }
+                                                            <div className='icons'>
+                                                                <i className="fab fa-php php"></i>
+                                                                <i className="fab fa-node node"></i>
+                                                                <i className="fab fa-js-square js"></i>
+                                                                <i className="fab fa-react react"></i>
+                                                                <i className="fab fa-css3 css"></i>
+                                                                <i className="fab fa-html5 html"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                )
+                                            },
+                                            {
+                                                title: '2018 - 2019',
+                                                align: 'right',
                                                 content: (
                                                     <div className="box">
                                                         <div className='title'>
@@ -77,7 +108,7 @@ class History extends React.Component {
                                             },
                                             {
                                                 title: '2017 - 2018',
-                                                align: 'right',
+                                                align: 'left',
                                                 content: (
                                                     <div className="box">
                                                         <div className='title'>
@@ -109,7 +140,7 @@ class History extends React.Component {
                                             },
                                             {
                                                 title: '2015 - 2017',
-                                                align: 'left',
+                                                align: 'right',
                                                 content: (
                                                     <div className="box">
                                                         <div className='title'>
@@ -135,7 +166,7 @@ class History extends React.Component {
                                             },
                                             {
                                                 title: '2013 - 2014',
-                                                align: 'right',
+                                                align: 'left',
                                                 content: (
                                                     <div className="box">
                                                         <div className='title'>
@@ -163,7 +194,7 @@ class History extends React.Component {
                                             },
                                             {
                                                 title: '2007 - 2013',
-                                                align: 'left',
+                                                align: 'right',
                                                 content: (
                                                     <div className="box">
                                                         <div className='title'>

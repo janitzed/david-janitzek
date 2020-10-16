@@ -1,0 +1,149 @@
+#app.code{
+
+    *::selection{
+        background-color: #49B095;
+    }
+
+    .Header,
+    .Home,
+    .Content,
+    .rr-sidebar,
+    .rr-container,
+    .rr-container .header,
+    .rr-timeline .content div,
+    .rr-timeline .content span{
+        background-color: #252526;
+    }
+
+    .rr-container .Content{
+        top: 0px;
+        padding-top:1px;
+    }
+
+    .rr-container .header{
+        border-radius: 0px;
+    }
+
+    .minify-menu i{
+        color: $white;
+    }
+
+    .rr-popupbox {
+        .icon{
+            color: $white;
+        }
+
+        .box.top-right{
+            background-color: #1E1E1E;
+    
+            .popup h1{
+                color: $white;
+            }
+        }
+    }
+
+    .rr-articles-images{
+        span{
+            color: #848484;
+        }
+    }
+
+    .rr-timeline .text{
+        color: #848484;
+    }
+
+    .rr-cards i,
+    .rr-popupbox .box.top-right .popup i,
+    .rr-timeline .content .title,
+    .rr-timeline .content .title h2,
+    .rr-timeline ul li i{
+        color: #49B095;
+    }
+
+    .rr-popupbox ul li:hover{
+        background-color: #49B095;
+    }
+
+    .rr-menu-click-horizontal .single-entry:hover{
+        background-color: #49B095;
+
+        a{
+            color: $white;
+        }
+    }
+}
+
+#app.dark{
+
+    *::selection{
+        background-color: $dodgerblue;
+    }
+
+    .Header,
+    .Home,
+    .Content,
+    .rr-sidebar,
+    .rr-container,
+    .rr-container .header,
+    .rr-timeline .content div,
+    .rr-timeline .content span{
+        background-color: #1E1E1E;
+    }
+
+    .rr-container .Content{
+        top: 0px;
+        padding-top:1px;
+    }
+
+    .rr-container .header{
+        border-radius: 0px;
+    }
+
+    .minify-menu i{
+        color: $white;
+    }
+
+    .rr-popupbox {
+        .icon{
+            color: $white;
+        }
+
+        .box.top-right{
+            background-color: #242526;
+    
+            .popup h1{
+                color: $white;
+            }
+        }
+    }
+
+    .rr-articles-images{
+        span{
+            color: #848484;
+        }
+    }
+
+    .rr-timeline .text{
+        color: #848484;
+    }
+
+    .rr-cards i,
+    .rr-popupbox .box.top-right .popup i,
+    .rr-timeline .content .title,
+    .rr-timeline .content .title h2,
+    .rr-timeline ul li i{
+        color: $dodgerblue;
+    }
+
+    .rr-popupbox ul li:hover{
+        background-color: $dodgerblue;
+    }
+
+    .rr-menu-click-horizontal .single-entry:hover{
+        background-color: $dodgerblue;
+
+        a{
+            color: $white;
+        }
+    }
+}

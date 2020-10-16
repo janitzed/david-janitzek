@@ -335,3 +335,248 @@ h1,
     margin: 0 10px;
   }
 }
+
+a{
+  text-decoration: none;
+  display: block;
+}
+a,
+p,
+div,
+span,
+h1,
+h2{
+  font-size: 0.87rem;
+  letter-spacing: 0.023rem;
+}
+
+*::selection{
+  background-color: black;
+  color: $white;
+}
+
+.link-animation{
+  width: 15%;
+  min-width: 140px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: $dark-background-light;
+  color: $white;
+  position: relative;
+  z-index: 2;
+  margin: 20px auto;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.link-animation:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  transition-duration: $default_transition;
+  z-index: -1;
+  background-color: $dark-background;
+}
+
+.link-animation:hover:after{
+  height: 100%;
+}
+
+.Content{
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.Header,
+.History,
+.Projects{
+  .rr-popupbox{
+    margin: 8px 30px 5px -20px;
+    display: inline-block;
+
+    .icon{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: transparent;
+        transition: $default_transition;
+        border-radius: 50%;
+        color: $white;
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+
+    .icon:hover{
+        cursor: pointer;
+        background-color: rgba(122,122,122,.33);
+    }
+
+    .box.top-right{
+        right: 10px;
+        top: calc(100% + 10px);
+        background-color: $white;
+        min-width: 200px;
+
+        .title{
+            box-sizing: border-box;
+            padding: 5px 10px;
+            min-height: 30px;
+            line-height: 30px;
+
+            i{
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+
+            li{
+                box-sizing: border-box;
+                padding: 10px 15px;
+                margin: 5px 0;
+                background-color: transparent;
+                transition: $default_transition;
+                color: rgb(122,122,122);
+            }
+
+            li:hover{
+                background-color: $dodgerblue;
+                color: $white;
+                cursor: pointer;
+            }
+        }
+    }
+  }
+}
+
+.History,
+.Projects{
+  .header{
+    display: flex;
+    justify-content: space-between;
+
+    .rr-popupbox{
+      margin: 0px -15px 5px 20px !important;
+    }
+  }
+}
+
+.rr-articles-images{
+  max-width: 1400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  .single-entry{
+      margin: 20px;
+      width: calc(100% - 40px);
+
+      .title{
+        padding: 15px 0;
+        font-size: 1.1rem;
+        width: calc(60% - 40px);
+        color: $dodgerblue;
+    }
+  
+    .text{
+        display: inline-block;
+        width: calc(60% - 40px);
+        line-height: 20px;
+        text-align: justify;
+    }
+  }
+
+  .isMinified{
+      .single-entry{
+          margin: 10px 0;
+          width: calc(100% - 20px);
+      }   
+  }
+
+  .image-holder {
+      margin: 10px;
+      border-radius: $border-radius;
+
+      .image{
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: darken;
+          border-radius: $border-radius;
+      }
+  }
+}
+
+.History,
+.Projects{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .rr-menu-click-horizontal {
+    .single-entry{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        transition-duration: $default_transition;
+        border-radius: 0px;
+        background-color: transparent;
+
+        a{
+            color: #72777a;
+            transition-duration: $default_transition;
+
+            i{
+                display: inline-block;
+                width: 30px;
+                text-align: center;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .single-entry:hover{
+        background-color: rgba(192,192,192,.2);
+    }
+  }
+
+  .footer-links{
+      width: 100%;
+
+      a{
+          width: 100px;
+          box-sizing: border-box;
+          padding: 10px;
+          border-radius: $border-radius;
+          margin: 10px;
+      }
+  }
+}
+
+#app{
+  .History,
+  .Projects{
+      .rr-popupbox{
+          float: right;
+          margin: 0 10px;
+
+          .icon{
+              color: #72777a;
+          }
+          .icon:hover{
+              background-color: rgba(122,122,122,.13);
+          }
+      }
+  }
+}

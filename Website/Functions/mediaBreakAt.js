@@ -1,3 +1,3 @@
-const mediaBreakAt = 1400;
+const mediaBreakAt = 1140;
 
 export default mediaBreakAt;

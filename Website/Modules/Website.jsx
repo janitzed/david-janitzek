@@ -13,6 +13,8 @@ import trans from '../Translations/trans';
 
 import HeaderLanguagePopup from './HeaderLanguagePopup';
 
+import HeaderSkinPopup from './HeaderSkinPopup';
+
 import { Link } from 'react-router-dom';
 
 import mediaBreakAt from '../Functions/mediaBreakAt';
@@ -86,7 +88,7 @@ class Website extends React.Component
                 }
                 moduleSidebar={
                     <SideBar
-                        image={<img alt="image" src={`${process.env.HOST}public/images/game-nova-3-icon.png`} />}
+                        image={<img alt="image" src={`${process.env.HOST}public/images/google-play-music-2-icon.png`} />}
                         textLong='David Janitzek'
                         textShort='developer'
                         href={`${process.env.HOST}`}
@@ -120,9 +122,10 @@ class Website extends React.Component
                 }
                 headerProps={undefined}
                 headerData={
-                    <span>
+                    <div>
                         <HeaderLanguagePopup />
-                    </span>
+                        <HeaderSkinPopup />
+                    </div>
                 }
                 contentProps={undefined}
                 contentData={content}

@@ -6,8 +6,9 @@ import trans from '../Translations/trans';
 
 import HeaderLanguagePopup from './HeaderLanguagePopup';
 
-class Header extends React.Component 
-{
+import HeaderSkinPopup from './HeaderSkinPopup';
+
+class Header extends React.Component {
 
   constructor(props) {
     super(props);
@@ -31,6 +32,7 @@ class Header extends React.Component
             </Link>
           </div>
           <div>
+            <HeaderSkinPopup />
             <HeaderLanguagePopup />
           </div>
         </div>

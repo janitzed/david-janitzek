@@ -1,10 +1,14 @@
 import React from 'react';
 
 const EN = {
+    lightTheme: 'Light',
+    darkTheme: 'Dark',
+    codeTheme: 'Code',
     home: 'Home',
     history: 'History',
     projects: 'Projects',
     changeLanguageTitle: 'Change language',
+    changeTintTitle: 'Change layout',
     historyBox: 'Here you will find all information about my current resume. All information is displayed in a hierarchical order on a timeline.',
     projectsBox: 'Here you will find all information about my current projects that have been privately created since the beginning of my career.',
     readMore: 'Read more',
@@ -20,6 +24,88 @@ const EN = {
     project_sourceCode: 'A Firefox add-on project to give the user the opportunity to display the source code of a website or its individual elements, as well as to download individual elements / code snippets.',
     project_protector: 'A Firefox add-on project that gives the end user the opportunity to block website requests, urls or individual domains using various blacklists. The administration of various lists and functions takes place in a user interface.',
     open_website: 'Website',
+    "2019_now": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Internal introduction and training of developers in the area of React as a frontend framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Use of PHP 7.4 and Twig as templating technology</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Use of Doctrine as a SQL Bundler</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Migration from Symfony 2.7 projects to Symfony 4.4</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Writing of PHP commands started by a CronJob</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Configuration of Gulp tasks</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Ubuntu installation</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Apache2 configuration</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Documentation in Confluence</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Use of the Jira ticket system</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Use of the versioning system: Git</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Extension & creation of responsive websites using the languages: Javascript, jQuery, Css, HTML, PHP, SQL</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Creation of PHP microservices to send data via curl request and result processing with connection of SQL queries</div>
+            </li>
+        </ul>
+    ),
     "2018_2019": (
         <ul>
             <li className="flex">
@@ -244,7 +330,8 @@ const EN = {
     area_projects: 'Projects',
     munich: 'Munich',
     kattowitz: 'Kattowitz',
-    tarnowitz: 'Tarnowitz'
+    tarnowitz: 'Tarnowitz',
+    now: 'now',
 };
 
 export default EN;

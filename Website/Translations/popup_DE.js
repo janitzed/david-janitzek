@@ -1,10 +1,14 @@
 import React from 'react';
 
 const DE = {
+    lightTheme: 'Hell',
+    darkTheme: 'Dunkel',
+    codeTheme: 'Kod',
     home: 'Startseite',
     history: 'Historie',
     projects: 'Projekte',
     changeLanguageTitle: 'Sprache ändern',
+    changeTintTitle: 'Layout ändern',
     historyBox: 'Hier finden Sie alle Informationen zu meinem aktuellen Lebenslauf. Alle informationen werden in einer hierarchischen Reihenfolge auf einer Timeline dargestellt',
     projectsBox: 'Hier finden Sie alle Informationen zu meinem aktuellen Projekten, die seit Anfang meiner Karriere privat erstellt wurden.',
     readMore: 'Mehr lesen',
@@ -20,6 +24,88 @@ const DE = {
     project_sourceCode: 'Ein Firefox Addon Projekt um dem Benutzer eine Möglichkeit zu schaffen, den Source Code eine Webseite oder dessen einzelne Elemente anzuzeigen, wie auch einzelne Elemente/ Code Schnipsel herunter zu laden.',
     project_protector: 'Ein Firefox Addon Projekt die dem Endanwender die Möglichkeit bietet Webseite Anfragen, Url`s oder einzelne Domänen, anhand verschiedener Blacklists, zu blockieren. Die Verwaltung verschiedener Listen und Funktionene finden in einem Benutzer Interface statt.',
     open_website: 'Webseite',
+    "2019_now": (
+        <ul>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Interne Einführung und Schulung von Entwicklern im Bereich React als Frontend Framework</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Verwendung von PHP 7.4 und Twig als Templating Technologie</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Verwendung von Doctrine als SQL Bundler</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Migration von Symfony 2.7 Projekten in Symfony 4.4</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Schreiben von PHP Commands die durch einen CronJob gestartet wurden</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Konfiguration von Gulp Tasks</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Ubuntu installation</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Apache2 Konfiguration</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Dokumentation in Confluence</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Verwendung des Ticket System Jira</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Verwendung des Versionierungssystems: Git</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Erweiterung & Erstellung von responsiven Websiten unter Verwendung der Sprachen: Javascript, jQuery, Css, HTML, PHP, SQL</div>
+            </li>
+            <li className="flex">
+                <div>
+                    <i className="fas fa-angle-right icon-right"></i>
+                </div>
+                <div className="text">Erstellung von PHP Mikroservices zum Versand von Daten per Curl Request und Ergebnis Verarbeitung mit Verbindung von SQL Abfragen </div>
+            </li>
+        </ul>
+    ),
     "2018_2019": (
         <ul>
             <li className="flex">
@@ -244,7 +330,8 @@ const DE = {
     area_projects: 'Projekte',
     munich: 'München',
     kattowitz: 'Kattowitz',
-    tarnowitz: 'Tarnowitz'
+    tarnowitz: 'Tarnowitz',
+    now: 'jetzt',
 };
 
 export default DE;

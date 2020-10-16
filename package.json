@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node node_modules/webpack/bin/webpack.js --config webpack.website.production.js --module-bind js=babel-loader --progress --profile --colors",
     "build:dev": "node node_modules/webpack/bin/webpack.js --config webpack.website.development.js --module-bind js=babel-loader --watch-poll --watch --progress --profile --colors",
-    "server": "lite-server -c bs-config.json"
+    "server": "lite-server -c bs-config.json",
+    "compile": "./node_modules/.bin/gulp compile"
   },
   "keywords": [],
   "author": "David Janitzek",
@@ -36,6 +37,11 @@
     "babel-loader": "^8.0.6",
     "babel-minify-webpack-plugin": "^0.3.1",
     "babel-polyfill": "^6.26.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp4-run-sequence": "^1.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
     "lite-server": "^2.5.4",
     "terser-webpack-plugin": "^1.4.4",
     "webpack-cli": "^3.3.10",
