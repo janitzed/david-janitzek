@@ -6,7 +6,7 @@ import { uuid } from 'react-revolution';
 
 import possibleLayouts from '../Functions/possibleLayouts';
 
-import PopupBox from 'react-revolution/public/PopupBox';
+import PopupBox from 'react-revolution/PopupBox';
 
 class HeaderSkinPopup extends React.Component 
 {

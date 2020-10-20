@@ -10,7 +10,7 @@ const APP_DIR = path.resolve(__dirname, './website.jsx');
 
 const Dotenv = require('dotenv-webpack');
 
-const version = 'v1.0.1';
+const version = 'v1.0.2';
 
 module.exports = {
     devtool: false,

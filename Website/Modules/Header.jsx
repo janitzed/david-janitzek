@@ -8,6 +8,8 @@ import HeaderLanguagePopup from './HeaderLanguagePopup';
 
 import HeaderSkinPopup from './HeaderSkinPopup';
 
+import HeaderProfilesPopup from './HeaderProfilesPopup';
+
 class Header extends React.Component {
 
   constructor(props) {
@@ -20,18 +22,19 @@ class Header extends React.Component {
       <div className="Header">
         <div className="flex flex-space-between">
           <div>
-            <Link to="/history">
+            <Link className="a-animation" to="/history">
               {
                 trans('history')
               }
             </Link>
-            <Link to="/projects">
+            <Link className="a-animation" to="/projects">
               {
                 trans('projects')
               }
             </Link>
           </div>
           <div>
+            <HeaderProfilesPopup/>
             <HeaderSkinPopup />
             <HeaderLanguagePopup />
           </div>

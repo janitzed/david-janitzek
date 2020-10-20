@@ -6,7 +6,7 @@ import possibleLanguagesLong from '../Functions/language/possibleLanguagesLong';
 
 import setLanguage from '../Functions/language/setLanguage';
 
-import PopupBox from 'react-revolution/public/PopupBox';
+import PopupBox from 'react-revolution/PopupBox';
 
 class HeaderLanguagePopup extends React.Component {
 

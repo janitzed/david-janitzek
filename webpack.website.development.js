@@ -4,7 +4,7 @@ const WRITE_DIR = path.resolve(__dirname, './public/');
 
 const APP_DIR = path.resolve(__dirname, './website.jsx');
 
-const version = 'v1.0.1';
+const version = 'v1.0.2';
 
 const Dotenv = require('dotenv-webpack');
 

@@ -1,11 +1,11 @@
 
 import React from 'react';
 
-import Cards from 'react-revolution/public/Cards';
+import Cards from 'react-revolution/Cards';
 
-import TextWriter from 'react-revolution/public/TextWriter';
+import TextWriter from 'react-revolution/TextWriter';
 
-import ArticlesImages from 'react-revolution/public/ArticlesImages';
+import ArticlesImages from 'react-revolution/ArticlesImages';
 
 import trans from '../Translations/trans';
 

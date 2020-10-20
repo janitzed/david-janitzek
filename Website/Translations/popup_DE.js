@@ -1,6 +1,7 @@
 import React from 'react';
 
 const DE = {
+    profiles: 'Profile',
     lightTheme: 'Hell',
     darkTheme: 'Dunkel',
     codeTheme: 'Kod',

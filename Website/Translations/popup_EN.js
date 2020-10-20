@@ -1,6 +1,7 @@
 import React from 'react';
 
 const EN = {
+    profiles: 'Profiles',
     lightTheme: 'Light',
     darkTheme: 'Dark',
     codeTheme: 'Code',

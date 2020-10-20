@@ -3,9 +3,9 @@ import React from 'react';
 
 import Website from '../Modules/Website';
 
-import ArticlesImages from 'react-revolution/public/ArticlesImages';
+import ArticlesImages from 'react-revolution/ArticlesImages';
 
-import TextWriter from 'react-revolution/public/TextWriter';
+import TextWriter from 'react-revolution/TextWriter';
 
 import trans from '../Translations/trans';
 
@@ -60,6 +60,9 @@ class Projects extends React.Component
                                                                 }
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/react-revolution" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -118,6 +121,9 @@ class Projects extends React.Component
                                                                 Mozilla
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/firefox-addon-images-downloader" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -134,6 +140,9 @@ class Projects extends React.Component
                                                                 Mozilla
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/firefox-addon-network-monitor" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -150,6 +159,9 @@ class Projects extends React.Component
                                                                 Mozilla
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/firefox-addon-script-injector" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -166,6 +178,9 @@ class Projects extends React.Component
                                                                 Mozilla
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/firefox-addon-source-code" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -182,6 +197,9 @@ class Projects extends React.Component
                                                                 Mozilla
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/firefox-addon-ninja-protect" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },
@@ -200,6 +218,9 @@ class Projects extends React.Component
                                                                 }
                                                             </a>
                                                         </div>
+                                                        <a className="github-link" href="https://github.com/janitzed/react-divcreator" target='_blank'>
+                                                            <i className="fab fa-github"></i>
+                                                        </a>
                                                     </span>
                                                 ),
                                             },

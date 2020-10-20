@@ -1,13 +1,13 @@
 
 import React from 'react';
 
-import Container from 'react-revolution/public/Container';
+import Container from 'react-revolution/Container';
 
-import SideBar from 'react-revolution/public/SideBar';
+import SideBar from 'react-revolution/SideBar';
 
 import { uuid } from 'react-revolution';
 
-import MenuClickHorizontal from 'react-revolution/public/MenuClickHorizontal';
+import MenuClickHorizontal from 'react-revolution/MenuClickHorizontal';
 
 import trans from '../Translations/trans';
 

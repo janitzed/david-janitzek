@@ -3,9 +3,9 @@ import React from 'react';
 
 import Website from '../Modules/Website';
 
-import Timeline from 'react-revolution/public/Timeline';
+import Timeline from 'react-revolution/Timeline';
 
-import TextWriter from 'react-revolution/public/TextWriter';
+import TextWriter from 'react-revolution/TextWriter';
 
 import mediaBreakAt from '../Functions/mediaBreakAt';
 

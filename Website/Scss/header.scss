@@ -6,7 +6,7 @@
     min-height: 50px;
     background: transparent;
 
-    a{
+    .a-animation{
         display: inline-block;
         box-sizing: border-box;
         padding: 10px;
@@ -27,8 +27,8 @@
         }
     }
 
-    a:after,
-    a:before{
+    .a-animation:after,
+    .a-animation:before{
         content: '';
         position: absolute;
         width: 0px;
@@ -39,21 +39,34 @@
         transition-duration: $default_transition;
     }
 
-    a:after{
+    .a-animation:after{
         z-index: 2;
         background-color: $white;
     }
     
-    a:hover:after{
+    .a-animation:hover:after{
         animation: aHrefWidth 200ms forwards ease-in;
     }
 
-    a:before{
+    .a-animation:before{
         z-index: 3;
         background-color: #72777a;
     }
 
-    a:hover:before{
+    .a-animation:hover:before{
         animation: aHrefWidth 200ms 200ms forwards ease-in;
+    }
+
+    ul{
+        li{
+            a{
+                color: #7a7a7a;
+            }
+        }
+        li:hover{
+            a{
+                color: $white;
+            }
+        }
     }
 }

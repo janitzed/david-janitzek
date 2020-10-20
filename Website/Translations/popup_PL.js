@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PL = {
+    profiles: 'Profile',
     lightTheme: 'Jasny',
     darkTheme: 'Ciemny',
     codeTheme: 'Kod',
