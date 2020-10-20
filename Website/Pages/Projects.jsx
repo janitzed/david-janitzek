@@ -194,7 +194,7 @@ class Projects extends React.Component
                                                             trans('project_reactDivcreator')
                                                         }
                                                         <div className='link'>
-                                                            <a className="link-animation" href="https://react-divcreator.cba.pl" target='_blank'>
+                                                            <a className="link-animation" href="http://react-divcreator.cba.pl" target='_blank'>
                                                                 {
                                                                     trans('open_website')
                                                                 }
